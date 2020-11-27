@@ -8,12 +8,13 @@ BINARY_NAME=songs
 GOPATH=./cmd/$(BINARY_NAME)
 BINPATH=./bin
 
-build: 
+.PHONY: clean
+
+build:
 	mkdir -p $(BINPATH)
 	$(GOBUILD) -o $(BINPATH)/$(BINARY_NAME) $(GOPATH) 
 
-
-test: 
+test: build
 	$(GOTEST) -v ./...
 
 clean: 
@@ -23,9 +24,5 @@ clean:
 run: build
 	$(BINPATH)/$(BINARY_NAME)
 
-deps:
-	$(GOGET) github.com/markbates/goth
-	$(GOGET) github.com/markbates/pop
-    
 all: test build
 

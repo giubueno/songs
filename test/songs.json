@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "response": {
+    "hits": [
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/1950913",
+          "full_title": "Lucy in the Sky with Diamonds by Dan Torres",
+          "header_image_thumbnail_url": "https://images.genius.com/872c8dd70942566aaf8760e2ef4b5534.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/872c8dd70942566aaf8760e2ef4b5534.910x910x1.jpg",
+          "id": 1950913,
+          "lyrics_owner_id": 1549345,
+          "lyrics_state": "complete",
+          "path": "/Dan-torres-lucy-in-the-sky-with-diamonds-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/872c8dd70942566aaf8760e2ef4b5534.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/872c8dd70942566aaf8760e2ef4b5534.910x910x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Lucy in the Sky with Diamonds",
+          "title_with_featured": "Lucy in the Sky with Diamonds",
+          "url": "https://genius.com/Dan-torres-lucy-in-the-sky-with-diamonds-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/454976",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 454976,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dan Torres",
+            "url": "https://genius.com/artists/Dan-torres"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/1384315",
+          "full_title": "The Way You Look Tonight by Dan Torres",
+          "header_image_thumbnail_url": "https://images.genius.com/477ab46e8e653a7dafb8ee534cdd69c4.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/477ab46e8e653a7dafb8ee534cdd69c4.455x455x1.jpg",
+          "id": 1384315,
+          "lyrics_owner_id": 1549345,
+          "lyrics_state": "complete",
+          "path": "/Dan-torres-the-way-you-look-tonight-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/477ab46e8e653a7dafb8ee534cdd69c4.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/477ab46e8e653a7dafb8ee534cdd69c4.455x455x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "The Way You Look Tonight",
+          "title_with_featured": "The Way You Look Tonight",
+          "url": "https://genius.com/Dan-torres-the-way-you-look-tonight-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/454976",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 454976,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dan Torres",
+            "url": "https://genius.com/artists/Dan-torres"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 0,
+          "api_path": "/songs/3161146",
+          "full_title": "Splendor by Dan Torres",
+          "header_image_thumbnail_url": "https://images.genius.com/8e11d304e9f6ede0e8aa59009fc84897.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/8e11d304e9f6ede0e8aa59009fc84897.310x310x1.jpg",
+          "id": 3161146,
+          "lyrics_owner_id": 269182,
+          "lyrics_state": "complete",
+          "path": "/Dan-torres-splendor-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/8e11d304e9f6ede0e8aa59009fc84897.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/8e11d304e9f6ede0e8aa59009fc84897.310x310x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Splendor",
+          "title_with_featured": "Splendor",
+          "url": "https://genius.com/Dan-torres-splendor-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/454976",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 454976,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dan Torres",
+            "url": "https://genius.com/artists/Dan-torres"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/1273209",
+          "full_title": "Lay Lady Lay by Dan Torres",
+          "header_image_thumbnail_url": "https://images.genius.com/2a844a746d570218d3aa965d09cea236.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/2a844a746d570218d3aa965d09cea236.929x929x1.jpg",
+          "id": 1273209,
+          "lyrics_owner_id": 269182,
+          "lyrics_state": "complete",
+          "path": "/Dan-torres-lay-lady-lay-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/2a844a746d570218d3aa965d09cea236.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/2a844a746d570218d3aa965d09cea236.929x929x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Lay Lady Lay",
+          "title_with_featured": "Lay Lady Lay",
+          "url": "https://genius.com/Dan-torres-lay-lady-lay-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/454976",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 454976,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dan Torres",
+            "url": "https://genius.com/artists/Dan-torres"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 0,
+          "api_path": "/songs/3532427",
+          "full_title": "Unchained Melody by Dan Torres",
+          "header_image_thumbnail_url": "https://images.genius.com/70d7fe6cdb0f4bf666066ea1146ad027.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/70d7fe6cdb0f4bf666066ea1146ad027.1000x1000x1.jpg",
+          "id": 3532427,
+          "lyrics_owner_id": 4791131,
+          "lyrics_state": "complete",
+          "path": "/Dan-torres-unchained-melody-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/70d7fe6cdb0f4bf666066ea1146ad027.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/70d7fe6cdb0f4bf666066ea1146ad027.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Unchained Melody",
+          "title_with_featured": "Unchained Melody",
+          "url": "https://genius.com/Dan-torres-unchained-melody-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/454976",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 454976,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Dan Torres",
+            "url": "https://genius.com/artists/Dan-torres"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/1814093",
+          "full_title": "Blues De La Bahia by La Macanita",
+          "header_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1605635080",
+          "header_image_url": "https://assets.genius.com/images/default_cover_image.png?1605635080",
+          "id": 1814093,
+          "lyrics_owner_id": 1549345,
+          "lyrics_state": "complete",
+          "path": "/La-macanita-blues-de-la-bahia-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://assets.genius.com/images/default_cover_image.png?1605635080",
+          "song_art_image_url": "https://assets.genius.com/images/default_cover_image.png?1605635080",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Blues De La Bahia",
+          "title_with_featured": "Blues De La Bahia",
+          "url": "https://genius.com/La-macanita-blues-de-la-bahia-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/404035",
+            "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "id": 404035,
+            "image_url": "https://assets.genius.com/images/default_avatar_300.png?1605635080",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "La Macanita",
+            "url": "https://genius.com/artists/La-macanita"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 13,
+          "api_path": "/songs/2982455",
+          "full_title": "Ziek by Seffelinie",
+          "header_image_thumbnail_url": "https://images.genius.com/3c2a7d0459f709697055042a6c7332ec.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/3c2a7d0459f709697055042a6c7332ec.500x500x1.jpg",
+          "id": 2982455,
+          "lyrics_owner_id": 4266502,
+          "lyrics_state": "complete",
+          "path": "/Seffelinie-ziek-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/3c2a7d0459f709697055042a6c7332ec.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/3c2a7d0459f709697055042a6c7332ec.500x500x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 13,
+            "hot": false
+          },
+          "title": "Ziek",
+          "title_with_featured": "Ziek",
+          "url": "https://genius.com/Seffelinie-ziek-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/663174",
+            "header_image_url": "https://images.genius.com/4bd20a576bf06cc055e08588e560b511.900x900x1.jpg",
+            "id": 663174,
+            "image_url": "https://images.genius.com/6c757ffd3265a34732e536ce0e12282b.720x720x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Seffelinie",
+            "url": "https://genius.com/artists/Seffelinie"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/213708",
+          "full_title": "Los Estratocúmulos by Menuda Coincidencia",
+          "header_image_thumbnail_url": "https://images.genius.com/0cf20024d2df8d7b703435df07ac3abe.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/0cf20024d2df8d7b703435df07ac3abe.350x350x1.jpg",
+          "id": 213708,
+          "lyrics_owner_id": 261084,
+          "lyrics_state": "complete",
+          "path": "/Menuda-coincidencia-los-estratocumulos-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/0cf20024d2df8d7b703435df07ac3abe.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/0cf20024d2df8d7b703435df07ac3abe.350x350x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Los Estratocúmulos",
+          "title_with_featured": "Los Estratocúmulos",
+          "url": "https://genius.com/Menuda-coincidencia-los-estratocumulos-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/65091",
+            "header_image_url": "https://images.genius.com/cd290463e9cea88c57f90b2f50b1f9e2.604x405x1.jpg",
+            "id": 65091,
+            "image_url": "https://images.genius.com/cd290463e9cea88c57f90b2f50b1f9e2.604x405x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Menuda Coincidencia",
+            "url": "https://genius.com/artists/Menuda-coincidencia"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 0,
+          "api_path": "/songs/3123908",
+          "full_title": "2 Coole Bitches by Kraeven Da Hunter",
+          "header_image_thumbnail_url": "https://images.genius.com/9f005fe03b20913074168a8939bd5b81.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/9f005fe03b20913074168a8939bd5b81.720x720x1.jpg",
+          "id": 3123908,
+          "lyrics_owner_id": 7287,
+          "lyrics_state": "complete",
+          "path": "/Kraeven-da-hunter-2-coole-bitches-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/9f005fe03b20913074168a8939bd5b81.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/9f005fe03b20913074168a8939bd5b81.720x720x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "2 Coole Bitches",
+          "title_with_featured": "2 Coole Bitches",
+          "url": "https://genius.com/Kraeven-da-hunter-2-coole-bitches-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1123751",
+            "header_image_url": "https://images.genius.com/55cba54fcba044f60351de493ada038d.1000x1000x1.jpg",
+            "id": 1123751,
+            "image_url": "https://images.genius.com/9f005fe03b20913074168a8939bd5b81.720x720x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Kraeven Da Hunter",
+            "url": "https://genius.com/artists/Kraeven-da-hunter",
+            "iq": 1645
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/198990",
+          "full_title": "Efectos Especiales by Tremendo",
+          "header_image_thumbnail_url": "https://images.genius.com/448cd4584d4e9c5846742acc0ed6a4d7.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/448cd4584d4e9c5846742acc0ed6a4d7.500x500x1.jpg",
+          "id": 198990,
+          "lyrics_owner_id": 225245,
+          "lyrics_state": "complete",
+          "path": "/Tremendo-efectos-especiales-lyrics",
+          "pyongs_count": null,
+          "song_art_image_thumbnail_url": "https://images.genius.com/448cd4584d4e9c5846742acc0ed6a4d7.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/448cd4584d4e9c5846742acc0ed6a4d7.500x500x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false
+          },
+          "title": "Efectos Especiales",
+          "title_with_featured": "Efectos Especiales",
+          "url": "https://genius.com/Tremendo-efectos-especiales-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/63633",
+            "header_image_url": "https://images.genius.com/6c2912422ca9555bec1a439816bedca9.1000x592x1.jpg",
+            "id": 63633,
+            "image_url": "https://images.genius.com/c5c8f67cbcf90d0d4d1659f6599c9b99.399x399x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Tremendo",
+            "url": "https://genius.com/artists/Tremendo"
+          }
+        }
+      }
+    ]
+  }
+}
