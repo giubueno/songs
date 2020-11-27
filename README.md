@@ -33,6 +33,8 @@ echo "Dan Torres" | songs | grep Lady
 3 - Lay *Lady* Lay by Dan Torres
 ```
 
+![usage](docs/usage.gif "How to use this command")
+
 ## Development
 
 ### Dependencies
