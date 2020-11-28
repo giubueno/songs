@@ -8,11 +8,11 @@ import (
 	"testing"
 )
 
-const CLIENT_ACCESS_TOKEN = "XXXXXXX"
+type MockHandler func(w http.ResponseWriter, r *http.Request)
 
-func serverMock() *httptest.Server {
+func serverMock(mock MockHandler) *httptest.Server {
 	handler := http.NewServeMux()
-	handler.HandleFunc("/search", songsMock)
+	handler.HandleFunc("/search", mock)
 
 	return httptest.NewServer(handler)
 }
@@ -26,25 +26,38 @@ func songsMock(w http.ResponseWriter, r *http.Request) {
 	_, _ = w.Write(content)
 }
 
+func mock500(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusInternalServerError)
+}
+
+func mock404(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusNotFound)
+}
+
+func mock401(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusUnauthorized)
+}
+
 func TestFindSongsByArtist(t *testing.T) {
-	srv := serverMock()
-	defer srv.Close()
-
-	repo := NewRepository(srv.URL+"/search", CLIENT_ACCESS_TOKEN)
-
 	tests := []struct {
 		name       string
 		artistName string
 		wantErr    bool
 		quantity   int
+		mock       MockHandler
 	}{
-
-		{"Searching with empty string", "", false, 0},
-		{"Searching songs from Dan Torres", "Dan Torres", false, 10},
+		{"Searching with empty string", "", false, 0, songsMock},
+		{"Searching songs from Dan Torres", "Dan Torres", false, 10, songsMock},
+		{"Searching songs with API error", "Dan Torres", true, 0, mock500},
+		{"Searching songs with API not found", "Dan Torres", true, 0, mock404},
+		{"Searching songs with API unauthorized", "Dan Torres", true, 0, mock401},
 	}
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
+			srv := serverMock(tt.mock)
+			defer srv.Close()
+			repo := NewRepository(srv.URL+"/search", "accessToken")
 			got, err := repo.FindSongsByArtistName(tt.artistName)
 			if tt.wantErr && err == nil {
 				t.Errorf("FindSongsByArtist() was expected to return error but didn't")
