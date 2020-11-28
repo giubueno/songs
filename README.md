@@ -42,7 +42,7 @@ echo "Dan Torres" | songs | grep Lady
 
 ### Dependencies
 
-This program has a simple terminal UI written in Go with the [gocui](https://github.com/jroimartin/gocui) library.
+None.
 
 ### Compiling
 
