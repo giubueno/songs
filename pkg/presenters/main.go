@@ -13,6 +13,7 @@ type terminalPresenter struct {
 	songs      []models.Song
 }
 
+// "Prints" all the song names as a string.
 func (p terminalPresenter) getContent() string {
 	var sb strings.Builder
 
@@ -24,7 +25,6 @@ func (p terminalPresenter) getContent() string {
 	return sb.String()
 }
 
-// "Prints" all the song names into a string.
 func (p terminalPresenter) Render() {
 	fmt.Fprintf(os.Stdout, p.getContent())
 }
