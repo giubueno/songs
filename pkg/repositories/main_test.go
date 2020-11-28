@@ -38,6 +38,10 @@ func mock401(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusUnauthorized)
 }
 
+func mockEmpty200(w http.ResponseWriter, r *http.Request) {
+	w.WriteHeader(http.StatusOK)
+}
+
 func TestFindSongsByArtist(t *testing.T) {
 	tests := []struct {
 		name       string
@@ -48,6 +52,7 @@ func TestFindSongsByArtist(t *testing.T) {
 	}{
 		{"Searching with empty string", "", false, 0, songsMock},
 		{"Searching songs from Dan Torres", "Dan Torres", false, 10, songsMock},
+		{"Searching songs with API empty response", "Dan Torres", false, 0, mockEmpty200},
 		{"Searching songs with API error", "Dan Torres", true, 0, mock500},
 		{"Searching songs with API not found", "Dan Torres", true, 0, mock404},
 		{"Searching songs with API unauthorized", "Dan Torres", true, 0, mock401},
