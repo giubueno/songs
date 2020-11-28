@@ -18,7 +18,7 @@ func serverMock() *httptest.Server {
 }
 
 func songsMock(w http.ResponseWriter, r *http.Request) {
-	content, err := ioutil.ReadFile("test/songs.json")
+	content, err := ioutil.ReadFile("../../test/songs.json")
 	if err != nil {
 		log.Fatal(err)
 	}

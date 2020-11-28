@@ -7,7 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/giubueno/songs"
+	presenters "github.com/giubueno/songs/pkg/presenters"
+	repositories "github.com/giubueno/songs/pkg/repositories"
 )
 
 func getArtistNameFromStdIn() string {
@@ -73,30 +74,27 @@ func printHowToUse() string {
 	return sb.String()
 }
 
-// "Prints" all the song names into a string.
-func printSongs(artistName string, songs []songs.Song) string {
-	var sb strings.Builder
-
-	sb.WriteString(fmt.Sprintf("\n%s\n\n", artistName))
-	for i, song := range songs {
-		sb.WriteString(fmt.Sprintf("%d - %s\n", i, song.FullTitle))
-	}
-
-	return sb.String()
-}
-
-func main() {
+func getURL() string {
 	var url string = os.Getenv("GENIUS_API_URL")
 	if len(url) == 0 {
-		url = "https://api.genius.com/search"
+		return "https://api.genius.com/search"
 	}
 
+	return url
+}
+
+func getAccessToken() string {
 	accessToken := os.Getenv("CLIENT_ACCESS_TOKEN")
 	if len(accessToken) == 0 {
 		fmt.Fprintf(os.Stdout, "CLIENT_ACCESS_TOKEN environment variable is not set.")
 		os.Exit(1)
 	}
+	return accessToken
+}
 
+func main() {
+	url := getURL()
+	accessToken := getAccessToken()
 	artistName := getArtistName()
 
 	if len(artistName) == 0 {
@@ -104,13 +102,14 @@ func main() {
 		os.Exit(1)
 	}
 
-	repo := songs.NewRepository(url, accessToken)
+	repo := repositories.NewRepository(url, accessToken)
 	songs, err := repo.FindSongsByArtistName(artistName)
 	if err != nil {
 		fmt.Fprintf(os.Stdout, "Error fetching songs. %v\n", err)
 		os.Exit(1)
 	}
 
-	fmt.Fprintf(os.Stdout, printSongs(artistName, songs))
+	presenters.NewPresenter(artistName, songs).Render()
+
 	os.Exit(0)
 }
