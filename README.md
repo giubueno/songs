@@ -40,6 +40,18 @@ echo "Dan Torres" | songs | grep Lady
 
 ## Development
 
+You can start by creating your own .env file.
+
+```bash
+cp .env.sample .env
+```
+
+Set the environment variable CLIENT_ACCESS_TOKEN with your own client access token. And then:
+
+```bash
+source .env
+```
+
 ### Dependencies
 
 None.
